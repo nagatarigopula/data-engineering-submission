@@ -1,0 +1,22 @@
+# Ignore Airflow logs
+logs/
+airflow-clean-airflow-*/ 
+__pycache__/
+
+# Ignore dbt build artifacts
+dbt_project/target/
+dbt_project/dbt_packages/
+
+# Python caches
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment files
+.env
+venv/
+.venv/
+
+# macOS system files
+.DS_Store
